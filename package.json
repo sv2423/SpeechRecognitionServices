@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sv2423/SpeechRecognitionServices#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "mssql": "^5.0.3",
     "vandium": "^4.10.0"

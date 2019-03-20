@@ -3,7 +3,10 @@
 
 // call the packages we need
 var express = require("express"); // call express
+var cors = require("cors");
 var app = express(); // define our app using express
+app.use(cors());
+
 var bodyParser = require("body-parser");
 const speechService = require("./Services/speechDataService");
 
