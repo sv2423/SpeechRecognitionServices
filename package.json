@@ -1,0 +1,25 @@
+{
+  "name": "speechrecognitionservices",
+  "version": "1.0.0",
+  "description": "storing data commin from speechrecognition UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sv2423/SpeechRecognitionServices.git"
+  },
+  "author": "satyavikas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sv2423/SpeechRecognitionServices/issues"
+  },
+  "homepage": "https://github.com/sv2423/SpeechRecognitionServices#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mssql": "^5.0.3",
+    "vandium": "^4.10.0"
+  }
+}
