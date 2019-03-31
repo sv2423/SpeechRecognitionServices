@@ -2,7 +2,7 @@ var config = {
   server: "speechrecognition.cspi3cx76xba.us-east-2.rds.amazonaws.com",
   database: "speechRecognition",
   user: "sv24122307",
-  password: "vikas2307",
+  password: "",
   port: 1433
 };
 
