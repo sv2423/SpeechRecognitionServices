@@ -19,7 +19,12 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.0",
     "mssql": "^5.0.3",
     "vandium": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
