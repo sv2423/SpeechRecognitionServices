@@ -1,4 +1,4 @@
-const { GraphQLSchema, GraphQLObjectType, GraphQLString } = require("graphql");
+const { GraphQLSchema, GraphQLObjectType, GraphQLList } = require("graphql");
 
 const speechService = require("../Services/speechDataService");
 const speechDataType = require("../types/speechDataType");
@@ -7,7 +7,7 @@ const RootQueryType = new GraphQLObjectType({
   name: "RootQueryType",
   fields: {
     getSpeechData: {
-      type: speechDataType,
+      type: new GraphQLList(speechDataType),
       description: "to get the speech data stored",
       /* args:{
           key:{type: new GraphQlNoNull(GraphQLString)}
