@@ -3,13 +3,7 @@ var config = {
   database: "speechRecognition",
   user: "sv24122307",
   password: "",
-  port: 1433,
-  connectionTimeout: 20000000,
-  pool: {
-    max: 10,
-    min: 0,
-    idleTimeoutMillis: 3000000
-  }
+  port: 1433
 };
 
 module.exports = config;

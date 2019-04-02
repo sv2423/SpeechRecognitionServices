@@ -7,6 +7,9 @@ var app = express();
 const graphqlHTTP = require("express-graphql");
 
 const speechDataSchema = require("./schemas/speechDataSchema");
+var cors = require("cors");
+var app = express(); // define our app using express
+app.use(cors());
 
 var bodyParser = require("body-parser");
 const speechService = require("./Services/speechDataService");
